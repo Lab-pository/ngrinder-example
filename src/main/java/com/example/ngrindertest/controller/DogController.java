@@ -1,6 +1,5 @@
 package com.example.ngrindertest.controller;
 
-import com.example.ngrindertest.dto.CatResponse;
 import com.example.ngrindertest.dto.DogResponse;
 import com.example.ngrindertest.service.DogService;
 import java.util.List;
