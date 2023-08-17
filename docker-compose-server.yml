@@ -1,8 +1,8 @@
 version: "3.8"
 services:
   server:
-    build: .
-    container_name: web-server
+    image: ghcr.io/protoseo/ngrinder-example:main
+    container_name: server
     restart: always
     ports:
       - "8080:8080"
